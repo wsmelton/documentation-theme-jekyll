@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    documentation-theme-jekyll (0.1.0)
+      jekyll (~> 3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -242,7 +248,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  bundler (~> 1.12)
+  documentation-theme-jekyll!
+  rake (~> 10.0)
 
 BUNDLED WITH
    2.0.1
